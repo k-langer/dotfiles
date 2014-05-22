@@ -24,3 +24,7 @@ augroup resCur
         autocmd!
         autocmd BufWinEnter * call ResCur()
 augroup END
+
+cabbrev name echo @%
+cabbrev number set number
+cabbrev nonumber set nonumber
